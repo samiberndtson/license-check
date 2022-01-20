@@ -1,5 +1,3 @@
-name: codeql/license-check
+name: license-check
 version: 0.0.0
-dependencies:
-  codeql/cpp-all: '*'
-extractor: cpp
+libraryPathDependencies: codeql-cpp
