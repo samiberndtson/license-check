@@ -1,1 +1,1 @@
-- query: ./gpl.ql
+- query: ./license-checks/gpl.ql
