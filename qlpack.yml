@@ -1,6 +1,4 @@
 name: samiberndtson/license-check
 version: 0.0.0
-groups: [cpp]
-dependencies:
-  codeql/cpp-all: "*"
-extractor: cpp
+libraryPathDependencies: gpl.ql
+
