@@ -1,3 +1,4 @@
 name: license-check
 version: 0.0.0
-libraryPathDependencies: codeql-cpp
+libraryPathDependencies:
+  - codeql-cpp
