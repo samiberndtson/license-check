@@ -1,3 +1,4 @@
 name: samiberndtson/license-check
 version: 0.0.0
-libraryPathDependencies: license-checks/gpl.ql
+libraryPathDependencies: codeql-cpp
+suites: license-checks
