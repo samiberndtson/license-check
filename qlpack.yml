@@ -1,4 +1,5 @@
-name: samiberndtson/license-check
+name: codeql/license-check
 version: 0.0.0
-libraryPathDependencies: codeql-cpp
-suites: license-checks
+dependencies:
+  codeql/cpp-all: '*'
+extractor: cpp
