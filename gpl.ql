@@ -4,7 +4,7 @@
  * @kind problem
  * @problem.severity warning
  * @precision high
- * @id license-check/gpl
+ * @id cpp/gpl
  * @tags maintainability
  */
 
@@ -12,4 +12,4 @@ import cpp
 
 from Comment c
 where c.getContents().regexpMatch("(?si).*\\bGeneral Public License\\b.*")
-select c, c.getFile()
+select c.getFile(), "Contains GPL code"
