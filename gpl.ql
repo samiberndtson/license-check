@@ -11,5 +11,5 @@
 import cpp
 
 from Comment c
-where c.getContents().regexpMatch("(?si).*\\bGeneral Public License\\b.*")
+where c.getContents().regexpMatch("(?si).*\\bTODO\\b.*")
 select c.getFile(), "Contains GPL code"
