@@ -10,6 +10,6 @@
 
 import cpp
 
-from Comment c
-where c.getContents().regexpMatch("(?si).*\\bTODO\\b.*")
-select c.getFile(), "Contains GPL code"
+from Comment c, Include i
+where c.getContents().regexpMatch("(?si).*\\bGeneral Public License\\b.*") and c.getFile() = i.getIncludedFile()
+select i.getFile(), "GPL licensed code in " + i.getIncludeText()
