@@ -11,5 +11,5 @@
 import cpp
 
 from Comment c, Include i
-where c.getContents().regexpMatch("(?si).*\\bGeneral Public License\\b.*") and c.getFile() = i.getIncludedFile()
+where c.getContents().regexpMatch("(?si).*\\bGNU General Public License\\b.*") and c.getFile() = i.getIncludedFile()
 select i.getFile(), "GPL licensed code in " + i.getIncludeText()
