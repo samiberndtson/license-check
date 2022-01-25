@@ -1,6 +1,6 @@
 /**
- * @name GPL Code
- * @description Find code with a GPL license
+ * @name Linking with GPL licensed library
+ * @description These header files contains a GPL liceanse
  * @kind problem
  * @problem.severity warning
  * @precision high
